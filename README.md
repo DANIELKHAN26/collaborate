@@ -11,7 +11,7 @@ This is the public, moderated space for working with me on research, documentary
 | **Share something you built with a workshop resource** | [Discussions → Show and tell](https://github.com/DANIELKHAN26/collaborate/discussions/categories/show-and-tell) |
 | **Report an error on the site** | [Suggest a correction](https://github.com/DANIELKHAN26/collaborate/issues/new?template=correction.yml) |
 | **Report a bug in a tool** | [Tool issue](https://github.com/DANIELKHAN26/collaborate/issues/new?template=tool-issue.yml) |
-| **Write privately** | The message form on the [collaborate page](https://danielkhan.org/collaborate/#message) |
+| **Write privately** | Email [hello@danielkhan.org](mailto:hello@danielkhan.org) |
 
 ## Before you post
 
