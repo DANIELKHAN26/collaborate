@@ -1,0 +1,59 @@
+name: Offer to help with a project
+description: Tell Daniel which project you'd like to join and what you'd bring.
+title: "[Join] "
+labels: [collaboration]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for offering to help! This issue is **public** — please don't include private documents or personal data about others.
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Which project would you like to join? (Filled in automatically when you come from the website.)
+      placeholder: e.g. The Annalist
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: How would you help?
+      multiple: true
+      options:
+        - Research / fact-checking
+        - Writing / editing
+        - Documentary / video / audio
+        - Design / UX
+        - Software development
+        - Translation (Bangla / English / other)
+        - Testing / feedback
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: What would you bring?
+      description: Your relevant experience, skills, sources or tools — and anything you're unsure about.
+    validations:
+      required: true
+  - type: textarea
+    id: first-step
+    attributes:
+      label: A small first step
+      description: Something we could finish and check within a few weeks.
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: Links to your work (optional)
+      placeholder: Portfolio, GitHub, LinkedIn…
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Before you submit
+      options:
+        - label: I've read the contributing guide and code of conduct, and this issue contains no confidential information.
+          required: true

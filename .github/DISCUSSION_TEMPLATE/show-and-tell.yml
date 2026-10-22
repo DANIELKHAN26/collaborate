@@ -1,0 +1,15 @@
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Which workshop resource did you use?
+      placeholder: e.g. Evidence ledger
+    validations:
+      required: true
+  - type: textarea
+    id: made
+    attributes:
+      label: What did you make?
+      description: A short description, plus a link or screenshot if you can share one.
+    validations:
+      required: true

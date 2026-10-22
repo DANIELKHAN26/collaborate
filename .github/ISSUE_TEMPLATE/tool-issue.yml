@@ -1,0 +1,29 @@
+name: Report a tool bug
+description: Something in a workshop tool or template doesn't work as described.
+title: "[Tool] "
+labels: [tool]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool and version
+      placeholder: e.g. Script timer 1.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, what you expected, and what happened instead. Remove personal files and secrets.
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Device
+      options: [Windows, macOS, Linux, Android, iPhone / iPad, Other]
+  - type: input
+    id: browser
+    attributes:
+      label: Browser or app version
+      placeholder: e.g. Firefox 150

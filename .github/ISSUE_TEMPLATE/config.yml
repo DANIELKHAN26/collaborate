@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ideas and questions
+    url: https://github.com/DANIELKHAN26/collaborate/discussions
+    about: Suggest a direction, ask a question or share a resource.
+  - name: Private message
+    url: https://danielkhan26.github.io/collaborate/#message
+    about: For partnerships, media requests or anything you'd rather not post publicly.

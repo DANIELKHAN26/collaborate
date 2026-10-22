@@ -1,0 +1,13 @@
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like to see built, researched or improved — and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: help
+    attributes:
+      label: Could you help with it?
+      description: Optional — what you could contribute.

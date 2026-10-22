@@ -1,0 +1,27 @@
+name: Suggest a correction
+description: Point out an error on danielkhan26.github.io, with a source.
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the page with the error. (Filled in automatically when you come from the website.)
+      placeholder: https://danielkhan26.github.io/...
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What needs correcting?
+      description: Quote only the short passage needed to identify it.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source and explanation
+      description: A reliable public source (link and date), and what it shows.
+    validations:
+      required: true
