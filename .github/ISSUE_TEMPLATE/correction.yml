@@ -1,5 +1,5 @@
 name: Suggest a correction
-description: Point out an error on danielkhan26.github.io, with a source.
+description: Point out an error on danielkhan.org, with a source.
 title: "[Correction] "
 labels: [correction]
 body:
@@ -8,7 +8,7 @@ body:
     attributes:
       label: Page
       description: The address of the page with the error. (Filled in automatically when you come from the website.)
-      placeholder: https://danielkhan26.github.io/...
+      placeholder: https://danielkhan.org/...
     validations:
       required: true
   - type: textarea

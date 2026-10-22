@@ -6,4 +6,4 @@ Not allowed: harassment, threats, hate speech, sexual content, scams, spam, defa
 
 Don't upload private correspondence, interview recordings, identity documents or copyrighted work without permission.
 
-Posts that break these rules may be edited, hidden or deleted, and participants may be blocked. To report a problem privately, use the message form at https://danielkhan26.github.io/collaborate/#message.
+Posts that break these rules may be edited, hidden or deleted, and participants may be blocked. To report a problem privately, use the message form at https://danielkhan.org/collaborate/#message.
